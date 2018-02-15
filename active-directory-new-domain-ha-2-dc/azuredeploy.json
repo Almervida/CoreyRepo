@@ -54,7 +54,7 @@
         "description": "Auto-generated token to access _artifactsLocation"
       },
       "defaultValue": ""
-    }
+    },
     "adPDCVMName": {
       "type": "string",
       "metadata": {
