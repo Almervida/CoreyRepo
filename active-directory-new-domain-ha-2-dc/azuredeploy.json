@@ -55,11 +55,17 @@
       },
       "defaultValue": ""
     }
+    "adPDCVMName": {
+      "type": "string",
+      "metadata": {
+        "description": "PrimaryDomain Controller VM Name"
+  }
+      },
+     
   },
   "variables": {
     "vhdStorageAccountName": "[concat('vhds', uniqueString(resourceGroup().id))]",
     "storageAccountType": "Standard_LRS",
-    "adPDCVMName": "adPDC",
     "adBDCVMName": "adBDC",
     "imagePublisher": "MicrosoftWindowsServer",
     "imageOffer": "WindowsServer",
