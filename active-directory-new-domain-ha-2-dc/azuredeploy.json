@@ -54,14 +54,7 @@
         "description": "Auto-generated token to access _artifactsLocation"
       },
       "defaultValue": ""
-    },
-     "adPDCVMName": {
-      "type": "secure",
-      "metadata": {
-        "description": "VMName"
-      },
-      "defaultValue": ""
-    }
+    }  
   },
   "variables": {
     "vhdStorageAccountName": "[concat('vhds', uniqueString(resourceGroup().id))]",
