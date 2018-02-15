@@ -5,6 +5,7 @@ This template will deploy 2 new VMs (along with a new VNet, Storage Account and 
 You can also deploy via powershell. First create a resource group to deploy to, then deploy.
 
 New-AzureRmResourceGroup -Name dctest -Location westus2
+
 New-AzureRmResourceGroupDeployment -Name dctest -resourcegroup dctest -TemplateUri https://raw.githubusercontent.com/Almervida/azure-quickstart-templates/master/active-directory-new-domain-ha-2-dc/azuredeploy.json
 
 Click the button below to deploy
