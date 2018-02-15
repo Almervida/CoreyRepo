@@ -55,6 +55,13 @@
       },
       "defaultValue": ""
     }
+     "adPDCVMName": {
+      "type": "secure",
+      "metadata": {
+        "description": "VMName"
+      },
+      "defaultValue": ""
+    }
   },
   "variables": {
     "vhdStorageAccountName": "[concat('vhds', uniqueString(resourceGroup().id))]",
